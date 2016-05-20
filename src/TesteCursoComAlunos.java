@@ -13,7 +13,7 @@ public class TesteCursoComAlunos {
 		javaColecoes.matricula(new Aluno("Maria Beltrao", 5678));
 		javaColecoes.matricula(new Aluno("Claudio Serqueira", 9012));
 		System.out.println(javaColecoes.getAlunos());
-		 Set<Aluno> alunos = javaColecoes.getAlunos();
-		 alunos.add(new Aluno("Antonio Rogerio", 18645));
+		Set<Aluno> alunos = javaColecoes.getAlunos();
+//		alunos.add(new Aluno("Antonio Rogerio", 18645));
 	}
 }
